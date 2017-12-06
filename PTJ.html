@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="PTJ.CSS" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="all">
+		<a name="back" id="back"></a><div class="top">
+			<div class="topl">
+			<div class="two"></div>
+			
+			</div>
+			<div class="three" style="display: block;">
+				<ul>
+					<li>首页</li>
+					<li>APP下载</li>
+					<li>企业合作</li>
+					<li>学校合作</li>
+					<li>关于我们</li>
+				</ul>
+			</div>
+		  <div class="sousuo">
+				<div class="souleft">
+					<form>
+						<input type="text" class="stext" />
+						<input type="submit" class="sbutton" value="搜索"/>
+					</form>
+				</div>
+				<div class="sbox">
+					<img src="Img/122.png" class="cha" />
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="img"></div>
+		
+		<div class="womenbig">
+		 
+				
+		</div>
+		
+		
+		
+		
+		
+		<div class="xianshang">
+			
+		</div>
+		
+	<div class="biaoge">
+			<div class="bg_all">
+				<div class="bg_o">	
+				</div>
+	  		
+	  		
+		  		<div class="bg_t">
+					<ul>
+						<li class="shouji"><img src="Img/2.jpg" alt="one"></li>
+						<li class="shouji"><img src="Img/1.jpg" alt="two"></li>
+						<li class="shouji"><img src="Img/4.jpg" alt="three"></li>
+						<li class="shouji"><img src="Img/3.jpg" alt="four"></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	
+		
+		<div class="xia">
+		  <div class="xiazai">点击下载</div>
+		</div>
+		
+		
+	
+		
+<div class="wall"></div>
+		
+		
+		
+		
+		<div class="tedian">
+			
+		</div>
+			
+		
+		
+		
+		<div class="hezuo"></div>
+		<div class="kongbai"></div>
+		
+		
+		
+       <div class="lianxi">
+			
+			<div class="pic_o"><a href="#back"><img src="Img/jiantou.png"></a></div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="threeone">
+		<ul>
+			<li><a href="#">APP下载</a>
+				<div class="menuo">
+					<ul>
+						<li>安卓端</li>
+						<li>iphone端</li>
+					</ul>
+					
+				</div>
+			
+			</li>
+			<li><a href="#">公司合作</a>
+				<div class="menu">
+					<ul>
+						<li>腾讯</li>
+						<li>网易</li>
+						<li>搜狐</li>
+					</ul>
+					
+				</div>
+			</li>
+			<li><a href="#">学校合作</a>
+				<div class="menu">
+					<ul>
+						<li>南京大学</li>
+						<li>东南大学</li>
+						<li>北京大学</li>
+					</ul>
+				</div>
+			</li>	
+			<li><a href="#">关于我们</a>
+				<div class="menu">
+					<ul>
+						<li>公司信息</li>
+						<li>公司动态</li>
+						<li>公司环境</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" >
+		$(".threeone ul li").mouseover(function(){
+			$(this).addClass("hover");
+			$(this).find(".menu").show();
+		}).mouseout(function(){
+			$(this).removeClass("hover");
+			$(this).find(".menu").hide();
+		});
+	</script>
+		
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+<script type="text/javascript" >
+		$(".threeone ul li").mouseover(function(){
+			$(this).addClass("hover");
+			$(this).find(".menuo").show();
+		}).mouseout(function(){
+			$(this).removeClass("hover");
+			$(this).find(".menuo").hide();
+		});
+</script>
+			
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+<script type="text/javascript" >		
+ $('.stext').focusin(function(){
+	 $('.sbox').show();
+ })
+ $('.stext').focusout(function(){
+	 $('.sbox').hide();
+ })	
+ $('.cha').click(function(){
+	 $('.sbox').hide();
+ })
+</script>		
+		
+			
+</body>
+</html>
